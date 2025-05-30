@@ -3,7 +3,7 @@ package C1.temp;
 import java.io.Console;
 import java.util.Scanner;
 
-public class Main {
+public class Stringtest {
     //String process/Split/Concate
     //test for StringBuilder
     public static void main(String[] args){
@@ -34,13 +34,16 @@ public class Main {
         System.out.println(splitStrings[i]);
         i++;
     }
+    
     //null for String !=  Empty string ---> this string doesn't exist
     int order = splitStrings[1].compareTo(splitStrings[2]);
+    
     //compare the order for dictionary order
     //positive means ahead/negetive means behind
     System.out.println(order);
     String int2String = Integer.toString(order);
     int string2Int = Integer.parseInt(int2String);
+ 
     //all comes from Integer class/ same operation from Double...etc
     //String is a **immutable** class: won't change anything original
     String blockString = """
@@ -49,16 +52,17 @@ public class Main {
             c;
             """;// use '\' to avoid line break
             // text block is good for paste code
-
-        
-
-
-
-
-
-
-
-
+    //Label is similar to compile
+    label:{
+        int x = 0;
+        x=2;
+            if(x==2){
+                break label;
+            }
+            //this line will be skipped
+        System.out.println("Jump here1!");
+    }
+    System.out.println("Jump here2!");
 
 
     }

@@ -1,4 +1,4 @@
-
+package ExtraPractice;
 public class Hero {
     String name;
     int hp;
