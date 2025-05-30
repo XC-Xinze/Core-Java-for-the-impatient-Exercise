@@ -9,9 +9,11 @@ public class ArrayListTest {
         //array length is initail can't change--> in C,  can use malloc to dynamic apply for the ram space
         //ArrayList can dynamic adjust space of ram for array---> transparent for programmer
             //has different writing style!
+
         ArrayList<String> style1 = new ArrayList<String>();
         var style2 = new ArrayList<String>();
         ArrayList<String> style3 = new ArrayList<>();//diamond syntax <>looks like a diamand/ recommend this syntax
+
         style1.add("style1");
         style2.add("style2");
         style3.add("style3");
