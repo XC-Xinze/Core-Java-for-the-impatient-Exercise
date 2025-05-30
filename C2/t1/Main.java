@@ -18,9 +18,10 @@ public class Main {
 
         System.out.println(" M\t T\t W\t T\t F\t S\t S");
         DayOfWeek weekday = date.getDayOfWeek();
-        int value = weekday.getValue(); // 1 = Monday, ... 7 = Sunday
+        int value = weekday.getValue(); 
+        // 1 = M 7 = S
         for (int i = 1; i < value; i++)
-            System.out.print("\t");
+            System.out.print("\t");//use \t
         while (date.getMonthValue() == month) {
             System.out.printf("%4d\t", date.getDayOfMonth());
             date = date.plusDays(1);
