@@ -7,7 +7,7 @@ public class ArrayCopy {
      public static void main(String[] args){
         int[] a = {1,2,3,5};
         int[] aCopy = a;
-        //share same space
+        //share same space---> copy address in C
 
         int[] aCopyReal = Arrays.copyOf(a, a.length);
         //real copy
