@@ -14,4 +14,5 @@ public class PointRecord {
     public double getY(){
         return this.y;
     }
+
 }
